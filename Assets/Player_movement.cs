@@ -37,10 +37,10 @@ public class Player_movement : MonoBehaviour
 
 
         if(Input.GetKey(KeyCode.A)){
-            movement.x = -Speed*Time.deltaTime;
+            movement.x = -Speed;
         }
         else if(Input.GetKey(KeyCode.D)){
-            movement.x = Speed*Time.deltaTime;
+            movement.x = Speed;
         }
 
         if(Input.GetKeyDown(KeyCode.W) && _isGrounded == true){
