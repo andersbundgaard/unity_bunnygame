@@ -8,9 +8,8 @@ public class SpeedBoost_1 : MonoBehaviour
     public float SpeedPowerAmount = 800;
 
     private void OnTriggerEnter2D(Collider2D collision){
-    if (collision.tag == "Player_1"){
-        collision.GetComponent<Player_movement>().SpeedPowerUp(SpeedDuration, SpeedPowerAmount);
-        Destroy(gameObject);
+        if (collision.tag == "Player_1"){
+            collision.GetComponent<Player_1_movement>().SpeedPowerUp(SpeedDuration, SpeedPowerAmount);        Destroy(gameObject);
         }
     }
 }
