@@ -1887,6 +1887,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8470871135455398034, guid: 7ceb183c19e84b54b95d362897dc3737, type: 3}
+      propertyPath: TM
+      value: 
+      objectReference: {fileID: 220989683}
+    - target: {fileID: 8470871135455398034, guid: 7ceb183c19e84b54b95d362897dc3737, type: 3}
+      propertyPath: NextLevel
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8470871135455398035, guid: 7ceb183c19e84b54b95d362897dc3737, type: 3}
       propertyPath: m_Name
       value: Goal
@@ -2295,6 +2303,11 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1664331857 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8470871135455398035, guid: 7ceb183c19e84b54b95d362897dc3737, type: 3}
+  m_PrefabInstance: {fileID: 1363732046}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1695537691
 GameObject:
   m_ObjectHideFlags: 0
@@ -3010,7 +3023,7 @@ MonoBehaviour:
   Point: 0
   PointText: {fileID: 764957350}
   PointToEnableTagret: 6
-  TargetToEnable: {fileID: 0}
+  TargetToEnable: {fileID: 1664331857}
 --- !u!4 &2074115522
 Transform:
   m_ObjectHideFlags: 0

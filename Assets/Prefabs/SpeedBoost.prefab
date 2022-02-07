@@ -113,4 +113,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedDuration: 5
-  SpeedPowerAmount: 1000
+  SpeedPowerAmount: 7

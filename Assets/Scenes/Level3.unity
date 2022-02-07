@@ -1428,7 +1428,7 @@ Transform:
   - {fileID: 1271118587}
   - {fileID: 195644199}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &764957348
 GameObject:
@@ -1571,6 +1571,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6669632538043979804, guid: 04264dcb8a5eac44bb984c8361328b6c, type: 3}
+      propertyPath: JumpPowerAmount
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6669632538043979805, guid: 04264dcb8a5eac44bb984c8361328b6c, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -3496,6 +3500,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7301429816301978144, guid: 386efd6338eca624a880bfccae509f25, type: 3}
+      propertyPath: SpeedPowerAmount
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7301429816301978145, guid: 386efd6338eca624a880bfccae509f25, type: 3}
       propertyPath: m_Name
       value: SpeedBoost

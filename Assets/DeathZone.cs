@@ -16,7 +16,7 @@ public class DeathZone : MonoBehaviour
         
     }
     private void OnTriggerEnter2D(Collider2D collision){
-        if (collision.tag == "Player"){
+        if (collision.tag == "Player" || collision.tag =="Player_1"){
             Destroy(collision.gameObject);
         }
     }
